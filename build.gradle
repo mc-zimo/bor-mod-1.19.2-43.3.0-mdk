@@ -149,8 +149,8 @@ dependencies {
 
 mixin {
     // MixinGradle Settings
-    add sourceSets.main, 'bor.mixins.refmap.json'
-    config 'bor.mixins.json'
+    add sourceSets.main, 'mixins.bor.refmap.json'
+    config 'mixins.bor.json'
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
